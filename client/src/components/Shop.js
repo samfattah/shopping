@@ -17,7 +17,6 @@ class Shop extends Component {
   
   render() {
     const { products } = this.state;
-      // return this.state.products.map(product => {
       return(
         <Container>
           <Header as='h1'>Buy My Shit</Header>
